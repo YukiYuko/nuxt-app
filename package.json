@@ -1,0 +1,25 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@huntersofbook/naive-ui-nuxt": "^1.1.0",
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/tailwindcss": "^6.8.0",
+    "@types/node": "^18.17.1",
+    "nuxt": "^3.6.5",
+    "sass": "^1.64.2"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.4.11",
+    "gray-matter": "^4.0.3",
+    "remark": "^14.0.3",
+    "remark-html": "^15.0.2"
+  }
+}
